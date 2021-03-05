@@ -62,19 +62,62 @@ a:hover{
     color: aqua;
 }
 
-.heading{
-    color: white;
+.heading {
+    position: relative;
+    top: 30px;
+}
+
+.headingTop{
+    color: aqua;
     text-align: center;
     font-size: 40px;
     font-style: italic;
-    line-height: 44px;
     font-weight: 200;
-    padding: 83px;
+}
+
+.headingChange{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+span:before {
+    content: "";
+    animation: animate infinite 8s;
+}
+
+@keyframes animate {
+    0%{
+        content: "Blogs •";
+
+    }
+    20%{
+        content: "Tuturials •";
+        
+    }
+    40%{
+        content: "Quizes •";
+        
+
+    }
+    60%{
+        content: "Projects •";
+        
+    }
+    80%{
+        content: "News •";
+        
+    }
+    100%{
+        content: "and More •";
+        
+    }
 }
 
 .programming {
     position: relative;
-    top: 300px;
+    top: 450px;
 }
 
 
@@ -93,8 +136,8 @@ a:hover{
     text-align-last: center;
     position: absolute;
     color: aqua;
-    left: 80px;
-    bottom: 240px;
+    left: 110px;
+    bottom: 250px;
 
     opacity: 0;
     visibility: hidden;
@@ -117,7 +160,7 @@ a:hover{
 
 .ml {
     position: relative;
-    top: 300px;
+    top: 450px;
 }
 
 .mlImg {
