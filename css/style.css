@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("https://resi.ze-robot.com/dl/mi/minimal-dark-coding-wallpaper-1366%C3%97768.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: overlay;
+
+}
+
+#navbar {
+    background: transparent;
+    height: 80px;
+    width: 100%;
+    transition: .9s;
+}
+
+#navbar:hover{
+    background: #202020;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    line-height: 83px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+#navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: rgb(168, 168, 168);
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: color .3s;
+} 
+
+a:active {
+    color: aqua;
+    
+}
+
+a:hover{
+    color: aqua;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 44px;
+    font-weight: 200;
+    padding: 83px;
+}
+
+.programming {
+    position: relative;
+    top: 300px;
+}
+
+
+.programmingImg {
+    max-width: 24%;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    transition: .5s;
+} 
+
+.programmingText {
+    font-size: 18px;
+    font-style: italic;
+    text-align-last: center;
+    position: absolute;
+    color: aqua;
+    left: 80px;
+    bottom: 240px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s, visibility .2s;
+
+}
+
+.programming:hover .programmingImg {
+    max-width: 30%;
+    height: auto;
+    filter: grayscale(100%);
+    opacity: 0.2;
+}
+
+.programming:hover .programmingText {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.ml {
+    position: relative;
+    top: 300px;
+}
+
+.mlImg {
+    max-width: 25%;
+    height: auto;
+    position: absolute;
+    right: 110px;
+    bottom: 130px;
+    transition: .5s;
+}
+
+.mlText {
+    font-size: 18px;
+    font-style: italic;
+    text-align-last: center;
+    position: absolute;
+    color: aqua;
+    right: 80px;
+    bottom: 220px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s, visibility .2s;
+
+}
+
+.ml:hover .mlImg {
+    max-width: 35%;
+    height: auto;
+    filter: grayscale(100%);
+    opacity: 0.2;
+}
+
+.ml:hover .mlText {
+    visibility: visible;
+    opacity: 1;
+}
