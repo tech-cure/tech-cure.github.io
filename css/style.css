@@ -208,9 +208,90 @@ span:before {
 #blogs {
     height: 720px;
     width: auto;
-    background-color: white;
+    background-color: rgb(223, 223, 223);
 }
 
-.hemlo {
-    color: white;
+.blog-heading h3 {
+    text-align: center; 
+    padding: 20px;
+    font-size: 45px;
+    font-weight: bold;
 }
+
+.blog-content {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 1200px;
+    height: 540px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.amazon-img {
+    height: 320px;
+    float: right;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+.blog-top-text {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.blog-content-text {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 190;
+}
+
+#about {
+    background: black;
+    height: 720px;
+    width: 1280px;
+}
+
+#about .footer-main {
+    background: rgb(223, 223, 223);
+    height: 300px;
+    width: 1360px;
+    position: absolute;
+    top: 2000px;
+}
+
+.content-about .text {
+    color: white;
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    padding: 40px;
+    font-weight: 220;
+    top: 50px;
+    left: 15px;
+}
+
+.footer-main .text .links{
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer-main .text .copyright {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color : #31B0D5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #46b8da;
+  }
+  
+  #to-the-top {
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+  }
